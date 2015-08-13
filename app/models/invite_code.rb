@@ -5,6 +5,7 @@ class InviteCode < CouchRest::Model::Base
 
   design do
     view :by__id
+    view :by_invite_code
   end
 end
 
